@@ -1,0 +1,1930 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* openeducat_core
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 14:25+0000\n"
+"PO-Revision-Date: 2019-01-29 11:20+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: eu_ES\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "<b>DATE: </b>"
+msgstr "<b>DATA: </b>"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "<b>PRINCIPAL</b>"
+msgstr "<b>NAGUSIA</b>"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_idcard
+msgid ""
+"<br/>\n"
+"                                                    BirthDate :"
+msgstr ""
+"<br/>\n"
+"                                                    Jaiotze data :"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_idcard
+msgid ""
+"<br/>\n"
+"                                                    Blood Group :"
+msgstr ""
+"<br/>\n"
+"                                                    Odol taldea :"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_idcard
+msgid ""
+"<br/>\n"
+"                                                    E-mail :"
+msgstr ""
+"<br/>\n"
+"                                                    E-posta :"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_idcard
+msgid ""
+"<br/>\n"
+"                                                    Phone :"
+msgstr ""
+"<br/>\n"
+"                                                    Telefonoa :"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid ""
+"<font color=\"white\">.</font>\n"
+"                                            is / was a bonafide student of this school / college\n"
+"                                            studying\n"
+"                                            in"
+msgstr ""
+"<font color=\"white\">.</font>\n"
+"                                            ikasle hau eskola honeta dago/egon zen \n"
+"                                            ikasten\n"
+"                                            hemen"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "<strong>Bonafide Certificate</strong>"
+msgstr "<strong>Asistentzi ziurtagiria</strong>"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "A+ve"
+msgstr "A+ve"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "A-ve"
+msgstr "A-ve"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "AB+ve"
+msgstr "AB+ve"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "AB-ve"
+msgstr "AB-ve"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_account_payable_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_account_payable_id
+msgid "Account Payable"
+msgstr "Ordaintzeko kontua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_account_receivable_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Kontua kobratzeke"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_res_company_accreditation
+#: model:ir.ui.view,arch_db:openeducat_core.view_company_form_openeducat_core
+msgid "Accreditation"
+msgstr "Akreditazioa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_needaction
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_needaction
+msgid "Action Needed"
+msgstr "Beharrezko ekintza"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_active
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_active
+msgid "Active"
+msgstr "Aktiboa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_ids
+msgid "Activities"
+msgstr "Jarduerak"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_activity
+msgid "Activity Management"
+msgstr "Jarduera kudeaketa"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Address"
+msgstr "Helbidea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Address Detail"
+msgstr "Helbide xehetasuna"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_type
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_type
+msgid "Address Type"
+msgstr "Helbide mota"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Admission Details"
+msgstr "Onarpen xehetasunak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_already_partner
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Already Partner"
+msgstr "Dagoeneko partner da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_res_company_approval_authority
+#: model:ir.ui.view,arch_db:openeducat_core.view_company_form_openeducat_core
+msgid "Approval Authority"
+msgstr "Onartze autoritatea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Approve"
+msgstr "Onartua"
+
+#. module: openeducat_core
+#: selection:op.subject.registration,state:0
+msgid "Approved"
+msgstr "Onartu izana"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "B+ve"
+msgstr "B+ve"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "B-ve"
+msgstr "B-ve"
+
+#. module: openeducat_core
+#: model:res.groups,name:openeducat_core.group_op_back_office
+msgid "Back Office"
+msgstr "Back Office a"
+
+#. module: openeducat_core
+#: model:res.groups,name:openeducat_core.group_op_back_office_admin
+msgid "Back Office Admin"
+msgstr "Back Office aren kudeaketa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_bank_account_count
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_bank_account_count
+msgid "Bank"
+msgstr "Bankua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_bank_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_bank_ids
+msgid "Banks"
+msgstr "Bankuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_barcode
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_barcode
+msgid "Barcode"
+msgstr "Barra-kodea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_batch_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_batch_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_tree
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+msgid "Batch"
+msgstr "Lotea"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_batch_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_batch_sub
+msgid "Batches"
+msgstr "Loteak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_birth_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_birth_date
+msgid "Birth Date"
+msgstr "Jaiotze data"
+
+#. module: openeducat_core
+#: code:addons/openeducat_core/models/faculty.py:59
+#: code:addons/openeducat_core/models/student.py:81
+#, python-format
+msgid "Birth Date can't be greater than current date!"
+msgstr "Jaiotze data ezin da gaurko data baino handiagoa izan!"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_blood_group
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_blood_group
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
+msgid "Blood Group"
+msgstr "Odoo taldea"
+
+#. module: openeducat_core
+#: model:ir.actions.report,name:openeducat_core.action_report_student_bonafide
+msgid "Bonafide Certificate"
+msgstr "Asistentzi Ziurtagiria"
+
+#. module: openeducat_core
+#: selection:op.subject,type:0
+msgid "Both"
+msgstr "Biok"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_bounce
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_bounce
+msgid "Bounce"
+msgstr "Berreskuratze"
+
+#. module: openeducat_core
+#: selection:op.course,evaluation_type:0
+msgid "CCE"
+msgstr "CCE"
+
+#. module: openeducat_core
+#: selection:op.course,evaluation_type:0
+msgid "CWA"
+msgstr "CWA"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_create_employee_view
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+#: model:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "Cancel"
+msgstr "Ezeztatu"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_category_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_category_sub
+msgid "Categories"
+msgstr "Kategoriak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_category_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_tree
+msgid "Category"
+msgstr "Kategoria"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_channel_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_channel_ids
+msgid "Channels"
+msgstr "Kanalak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_is_company
+#: model:ir.model.fields,help:openeducat_core.field_op_student_is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Egiaztatu kontaktua enpresa bada, Bestela persona da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_customer
+#: model:ir.model.fields,help:openeducat_core.field_op_student_customer
+msgid "Check this box if this contact is a customer."
+msgstr "Egiaztatu kontaktua bezeroa bada."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_supplier
+#: model:ir.model.fields,help:openeducat_core.field_op_student_supplier
+msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
+msgstr "Egiaztatu aukera , saltzailea bada. Horrela bada, erosleek ezingo dituzte ikusi."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_employee
+#: model:ir.model.fields,help:openeducat_core.field_op_student_employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Aukeratu kutxatxo hau kontaktua langile bat bada."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_city
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_city
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "City"
+msgstr "Herria"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_code
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_code
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_code
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_code
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_search
+msgid "Code"
+msgstr "Kodea"
+
+#. module: openeducat_core
+#: sql_constraint:op.batch:0
+msgid "Code should be unique per batch!"
+msgstr "Lote bakoitzeko kode bakar bat jarri daiteke!"
+
+#. module: openeducat_core
+#: sql_constraint:op.category:0
+msgid "Code should be unique per category!"
+msgstr "Kategoria bakoitzeko, kodea bakarra izan daiteke!"
+
+#. module: openeducat_core
+#: sql_constraint:op.course:0
+msgid "Code should be unique per course!"
+msgstr "Ikastaro bakoitzeko, kodea bakarra izan daiteke!"
+
+#. module: openeducat_core
+#: sql_constraint:op.subject:0
+msgid "Code should be unique per subject!"
+msgstr "Ikasgai bakoitzeko, kodea bakarra izan daiteke!"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_color
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_color
+msgid "Color Index"
+msgstr "Koloreen indizea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_commercial_partner_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Erakunde komertziala"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_res_company
+msgid "Companies"
+msgstr "Enpresak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_ref_company_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Kideari dagozkion konpainiak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_company_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_company_id
+msgid "Company"
+msgstr "Enpresa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_company_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_company_name
+msgid "Company Name"
+msgstr "Enpresaren Izena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_commercial_company_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_commercial_company_name
+msgid "Company Name Entity"
+msgstr "Enpresa izena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_company_type
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_company_type
+msgid "Company Type"
+msgstr "Konpainia mota"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_contact_address
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_contact_address
+msgid "Complete Address"
+msgstr "Helbide osoa"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
+msgid "Comprehensive Open Source ERP for Educational Institutes"
+msgstr "Ikastetxeentzako kode librean egindako ERP integrala"
+
+#. module: openeducat_core
+#: selection:op.subject,subject_type:0
+msgid "Compulsory"
+msgstr "Derrigorrezkoa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_compulsory_subject_ids
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Compulsory Subjects"
+msgstr "Derrigorrezko ikasgaiak"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config
+msgid "Configuration"
+msgstr "Konfigurazioa"
+
+#. module: openeducat_core
+#. openerp-web
+#: code:addons/openeducat_core/static/src/xml/dashboard_ext_openeducat.xml:23
+#, python-format
+msgid "Contact Support"
+msgstr "Kontaktuari laguntza"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_child_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_child_ids
+msgid "Contacts"
+msgstr "Kontaktuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_contract_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_contracts_count
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_contract_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_contracts_count
+msgid "Contracts"
+msgstr "Kontratuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_payment_token_count_5809
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_payment_token_count_5945
+msgid "Count Payment Token"
+msgstr "Ordainketa kontuaren fitxa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_bounce
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Kontaktu honek izan dituen errebote e-posten kontagailua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_commercial_partner_country_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_country_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_commercial_partner_country_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_country_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Country"
+msgstr "Herrialdea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_course_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_course_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_course_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_tree
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+msgid "Course"
+msgstr "Ikastaroa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_detail_ids
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Course Details"
+msgstr "Ikastaro xehetasunak"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_course
+msgid "Course Management"
+msgstr "Ikastaro kudeaketa"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_tree
+msgid "Course Registration"
+msgstr "Ikastaro matrikula"
+
+#. module: openeducat_core
+#: code:addons/openeducat_core/models/subject_registration.py:80
+#, python-format
+msgid "Course not found on student's admission!"
+msgstr "Ikaslearen matrikulan ez da ikastaroa aurkitzen!"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_course_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_course_sub
+msgid "Courses"
+msgstr "Ikastaroak"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.faculty_create_employee_act
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_create_employee_view
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+msgid "Create Employee"
+msgstr "Langilea sortu"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_wizard_op_faculty_employee
+msgid "Create Employee and User of Faculty"
+msgstr "Sortu langilea eta irakaslearen erabiltzailea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_wizard_op_faculty
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+msgid "Create User for selected Faculty(s)"
+msgstr "Sortu erabiltzailea aukeratutako irakasleetatik"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_wizard_op_student
+#: model:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "Create User for selected Student(s)"
+msgstr "Sortu erabiltzaileak aukeratutako ikasleetatik"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.action_faculty_user_create_view
+#: model:ir.actions.act_window,name:openeducat_core.action_student_user_create_view
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+#: model:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "Create Users"
+msgstr "Sortutako erabiltzaileak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_create_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_create_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_create_date
+msgid "Created on"
+msgstr "Sortze data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_credit_limit
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_credit_limit
+msgid "Credit Limit"
+msgstr "Kreditu muga"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_currency_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_currency_id
+msgid "Currency"
+msgstr "Moneta"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_payment_term_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Bezeroaren ordainketa terminoak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_date
+msgid "Date"
+msgstr "Data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_last_post
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Erregistroan egindako azken mezuaren data."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_trust
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Zordunarengan duzun konfiantza-maila"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_display_name
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: openeducat_core
+#: selection:op.subject.registration,state:0
+msgid "Draft"
+msgstr "Borradorea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
+msgid ""
+"Education is an integral part of our society -- it enables\n"
+"                        individuals, community and other section of the society to\n"
+"                        endure the hardships of life with knowledge and intellect.\n"
+"                        Open Source, on the other hand, acts as a fuel to education\n"
+"                        and other acts of freedom in the software related field."
+msgstr ""
+"Hezkuntza gure gizartearen zati garrantzitsu bat da -- gizaki\n"
+"                        eta komunitateak , bizitzak jartzen dituen zailtasunas gainditzen\n"
+"                        dituzte, jakinduria eta hezkuntza maila altuekin.\n"
+"                        Kode librea, hezkuntzaren gasolina gisa hartzen da\n"
+"                        eta askatasuna bultzatzen dueña software munduan."
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Educational"
+msgstr "Educational"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_partner_share
+#: model:ir.model.fields,help:openeducat_core.field_op_student_partner_share
+msgid "Either customer (no user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
+msgstr "Bezeroak (erabiltzaileik ez), bai erabiltzaile partekatua. Uneko kideak sarbiderik gabe edo datu partekatzeak sortutako sarbide mugatua duen bezeroa da."
+
+#. module: openeducat_core
+#: selection:op.subject,subject_type:0
+msgid "Elective"
+msgstr "Eraginkorra"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_elective_subject_ids
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Elective Subjects"
+msgstr "Ikagai eraginkorrak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_email
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_email
+msgid "Email"
+msgstr "E-posta"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_emergency_contact
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_emergency_contact
+msgid "Emergency Contact"
+msgstr "Larrialdi kontaktua"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_hr_employee
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_emp_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_employee
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_employee
+msgid "Employee"
+msgstr "Langilea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_end_date
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+msgid "End Date"
+msgstr "Amaiera Data"
+
+#. module: openeducat_core
+#: code:addons/openeducat_core/models/batch.py:47
+#, python-format
+msgid "End Date cannot be set before                 Start Date."
+msgstr "Amaiera data ezin da jarri                  hasiera data baino lehenago."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_evaluation_type
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_search
+msgid "Evaluation Type"
+msgstr "Azterketa mota"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_faculty_view
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_faculty_ids
+#: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_main
+#: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_root
+msgid "Faculties"
+msgstr "Irakasleak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_tree
+#: model:res.groups,name:openeducat_core.group_op_faculty
+msgid "Faculty"
+msgstr "Irakaslea"
+
+#. module: openeducat_core
+#: selection:op.faculty,gender:0 selection:op.student,gender:0
+msgid "Female"
+msgstr "Anderea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "First Name"
+msgstr "Lehen izena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_account_position_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posizio fiskala"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_follower_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_follower_ids
+msgid "Followers"
+msgstr "Jarraitzaileak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_channel_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Jarraitzaileak (kanalak)"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_partner_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Jarraitzaileak (Partnerrak)"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_email_formatted
+#: model:ir.model.fields,help:openeducat_core.field_op_student_email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "E-postaren formatoa \"Izena <eposta@domeinua>\""
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_email_formatted
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_email_formatted
+msgid "Formatted Email"
+msgstr "Eposta formateatuta"
+
+#. module: openeducat_core
+#: selection:op.course,evaluation_type:0
+msgid "GPA"
+msgstr "GPA"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_gr_no
+msgid "GR Number"
+msgstr "GR Zenbakia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_gender
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_gender
+msgid "Gender"
+msgstr "Generoa"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_general_main
+#: model:ir.ui.menu,name:openeducat_core.menu_op_general_student
+msgid "General"
+msgstr "Orokorra"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_general
+msgid "General Management"
+msgstr "Kudeaketa orokorra"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Get Subjects"
+msgstr "Ikasgaiak lortu"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_grade_weightage
+msgid "Grade Weightage"
+msgstr "Ikasgai pisua"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+msgid "Group By..."
+msgstr "Taldekatu..."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_has_unreconciled_entries
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "Kontziliatu gabeko sarrerak ditu"
+
+#. module: openeducat_core
+#: model:ir.module.category,description:openeducat_core.module_category_openeducat
+#: model:ir.module.category,description:openeducat_core.module_category_openeducat_others
+msgid "Helps you manage your institutes different-different users."
+msgstr "Zure ikastetxearen erabiltzaile desberdinak kudetazeko laguntza."
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid ""
+"His / Her birthday as recorded in the General Register of\n"
+"                                            the\n"
+"                                            school / collage is"
+msgstr ""
+"Bere urtebetze data eskolaren erregistro\n"
+"                                             orokorrean\n"
+"                                            gordeta dago"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_id
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_id
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_id
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_id
+msgid "ID"
+msgstr "ID"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_id_number
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_id_number
+msgid "ID Card Number"
+msgstr "ID Txartel zenbakia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_im_status
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_im_status
+msgid "IM Status"
+msgstr "IM Egoera"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_unread
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Aukeratutako mezu berriak zure arreta behar dute."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_needaction
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Aukeratutako mezu berriak zure arreta behar dute."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_opt_out
+#: model:ir.model.fields,help:openeducat_core.field_op_student_opt_out
+msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgstr "Aukera hau aktibatuta badago, bezeroak eposta, marketin kanpaina eta bidalketa masiboetatik kanpo gelditu nahi duela dio. Kontutan eduki, egoera honetan dauden bezeroie kalte ez egiteko, i \" Available for Mass Mailing\" filtroak erabili."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_lang
+#: model:ir.model.fields,help:openeducat_core.field_op_student_lang
+msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgstr "Aukeratutako hizkuntza sisteman duzu jadanik, kontaktuarekin erlazionaturik dauden dokumentu guztiak, jarritako hizkuntzan inprimatuko dira. Hizkuntzarik ez balego inglesa azaldu liteke."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_image
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_image
+msgid "Image"
+msgstr "Irudia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_industry_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_industry_id
+msgid "Industry"
+msgstr "Industria"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_company_form_openeducat_core
+msgid "Institute Detail"
+msgstr "Ikastetxearen xehetasunak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_ref
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_ref
+msgid "Internal Reference"
+msgstr "Barne erreferentzia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_invoice_warn
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_invoice_warn
+msgid "Invoice"
+msgstr "Faktura"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_invoice_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_invoice_ids
+msgid "Invoices"
+msgstr "Fakturak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_is_follower
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_is_follower
+msgid "Is Follower"
+msgstr "Jarraitzailea da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_is_company
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_is_company
+msgid "Is a Company"
+msgstr "Konpainia bat da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_customer
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_customer
+msgid "Is a Customer"
+msgstr "Bezero bat da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_supplier
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_supplier
+msgid "Is a Vendor"
+msgstr "Hornitzaile bat da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_function
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_function
+msgid "Job Position"
+msgstr "Lan postua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_journal_item_count
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_journal_item_count
+msgid "Journal Items"
+msgstr "Egunkari-artikuluak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_lang
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_lang
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
+msgid "Language"
+msgstr "Hizkuntza"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_last_post
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_last_post
+msgid "Last Message Date"
+msgstr "Azkeneko mezuaren data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee___last_update
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student___last_update
+msgid "Last Modified on"
+msgstr "Azken aldaketa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_last_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_last_name
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Last Name"
+msgstr "Abizena 2"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_write_uid
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_write_uid
+msgid "Last Updated by"
+msgstr "Nork eguneratua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_write_date
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_write_date
+msgid "Last Updated on"
+msgstr "Azken eguneraketaren data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_last_time_entries_checked
+#: model:ir.model.fields,help:openeducat_core.field_op_student_last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "Fakturak eta ordainketak kontziliatuak egotearen azkeneko eragiketa."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_last_login
+msgid "Latest Connection"
+msgstr "Azkeneko konexioa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_last_time_entries_checked
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Fakturen eta ordaiketen azkeneko kontziliazio data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_login
+msgid "Login"
+msgstr "Saioa hasi"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "Mail:"
+msgstr "Eposta:"
+
+#. module: openeducat_core
+#: selection:op.faculty,gender:0 selection:op.student,gender:0
+msgid "Male"
+msgstr "Gizona"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_max_unit_load
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_max_unit_load
+msgid "Maximum Unit Load"
+msgstr "Karga unitate maximoa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_image_medium
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_image_medium
+msgid "Medium-sized image"
+msgstr "Irudi ertaina"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_image_medium
+#: model:ir.model.fields,help:openeducat_core.field_op_student_image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Kontaktu honetako argazki ertain tamaina. Argazkiak 128x128px ko tamainara aldatuko da proportzioak mantenduz. Eremu hau erabili Kanban ikuspegia erabiltzerakoan."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_invoice_warn_msg
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_invoice_warn_msg
+msgid "Message for Invoice"
+msgstr "Fakturarako mezua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_ids
+msgid "Messages"
+msgstr "Mezuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_middle_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_middle_name
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Middle Name"
+msgstr "Abizena 1"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_min_unit_load
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_min_unit_load
+msgid "Minimum Unit Load"
+msgstr "Karga unitate minimoa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_mobile
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_mobile
+msgid "Mobile"
+msgstr "Mugikorra"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_category_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_name
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_category_search
+msgid "Name"
+msgstr "Izena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_nationality
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_nationality
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
+msgid "Nationality"
+msgstr "Nazionalitatea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_date_deadline
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Hurrengo ekintzaren epemuga"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_summary
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_summary
+msgid "Next Activity Summary"
+msgstr "Hurrengo ekintzaren laburpena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_type_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_type_id
+msgid "Next Activity Type"
+msgstr "Hurrengo ekintza mota"
+
+#. module: openeducat_core
+#: selection:op.course,evaluation_type:0
+msgid "Normal"
+msgstr "Normala"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_comment
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_comment
+msgid "Notes"
+msgstr "Oharrak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_needaction_counter
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Akzio kopurua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_needaction_counter
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Ekintza bat behar duten mezu kopurua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_message_unread_counter
+#: model:ir.model.fields,help:openeducat_core.field_op_student_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Irakurri gabeko mezuen kopurua"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "O+ve"
+msgstr "O+ve"
+
+#. module: openeducat_core
+#: selection:op.faculty,blood_group:0 selection:op.student,blood_group:0
+msgid "O-ve"
+msgstr "O-ve"
+
+#. module: openeducat_core
+#: model:ir.module.category,name:openeducat_core.module_category_openeducat
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_root
+msgid "OpenEduCat"
+msgstr "OpenEduCat"
+
+#. module: openeducat_core
+#: model:ir.module.category,name:openeducat_core.module_category_openeducat_others
+msgid "OpenEduCat Others"
+msgstr "OpenEduCat besteak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
+#: model:ir.ui.view,arch_db:openeducat_core.footer_default_openeducat
+msgid ""
+"OpenEduCat is a product developed by Tech-Receptives\n"
+"                        Solutions Pvt. Ltd., an expert company focusing in providing\n"
+"                        unique open source solutions.\n"
+"                        <br/>\n"
+"                        In due course we accumulated a team of strong, experienced,\n"
+"                        creative, talented and dedicated engineers and designers."
+msgstr ""
+"OpenEduCat is a product developed by Tech-Receptives\n"
+"                        Solutions Pvt. Ltd., an expert company focusing in providing\n"
+"                        unique open source solutions.\n"
+"                        <br/>\n"
+"                        In due course we accumulated a team of strong, experienced,\n"
+"                        creative, talented and dedicated engineers and designers."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_opt_out
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_opt_out
+msgid "Opt-Out"
+msgstr "Opt-Kanpo"
+
+#. module: openeducat_core
+#: selection:op.student,gender:0 selection:op.subject,type:0
+msgid "Other"
+msgstr "Besteak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
+#: model:ir.ui.view,arch_db:openeducat_core.footer_default_openeducat
+msgid ""
+"Our products apply unique and powerful technology that\n"
+"                        helps educational institutes manage, connect, communicate and\n"
+"                        collaborate effectively among students, teachers and back\n"
+"                        office."
+msgstr ""
+"Our products apply unique and powerful technology that\n"
+"                        helps educational institutes manage, connect, communicate and\n"
+"                        collaborate effectively among students, teachers and back\n"
+"                        office."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_parent_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_search
+msgid "Parent Course"
+msgstr "Ikastaroaren aurreko maila"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_parent_name
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_parent_name
+msgid "Parent name"
+msgstr "Aurreko mailaren izena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_partner_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_partner_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Partner"
+msgstr "Kidea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_debit_limit
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_debit_limit
+msgid "Payable Limit"
+msgstr "Ordaintzeko muga"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_payment_token_ids_5752
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_payment_token_ids_5888
+msgid "Payment Tokens"
+msgstr "Ordainketa fitxa"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Personal Information"
+msgstr "Informazio pertsonala"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_phone
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_phone
+msgid "Phone"
+msgstr "Telefonoa"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "Phone:"
+msgstr "Telefonoa:"
+
+#. module: openeducat_core
+#: selection:op.subject,type:0
+msgid "Practical"
+msgstr "Praktikak"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_student_main_student
+msgid "Profile"
+msgstr "Profila"
+
+#. module: openeducat_core
+#. openerp-web
+#: code:addons/openeducat_core/static/src/xml/base.xml:11
+#, python-format
+msgid "Provided by"
+msgstr "Nork ekarria"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Reject"
+msgstr "Ukatu"
+
+#. module: openeducat_core
+#: selection:op.subject.registration,state:0
+msgid "Rejected"
+msgstr "Ukatua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_parent_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_parent_id
+msgid "Related Company"
+msgstr "Erlazionatutako Konpainia"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_employee_form_address_inherit
+msgid "Related User"
+msgstr "Lotutako erabiltzailea"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_report_main
+msgid "Report"
+msgstr "Informea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Reset to Draft"
+msgstr "Berrezarri zirriborrora"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_user_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_user_id
+msgid "Responsible"
+msgstr "Arduraduna"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_roll_number
+msgid "Roll Number"
+msgstr "Alta zenbakia"
+
+#. module: openeducat_core
+#: sql_constraint:op.student.course:0
+msgid "Roll Number & Student must be unique per Batch!"
+msgstr "Alta zenbakia eta ikasleak, bakarrak izan beharko lukete lote bakoitzeko!"
+
+#. module: openeducat_core
+#: sql_constraint:op.student.course:0
+msgid "Roll Number must be unique per Batch!"
+msgstr "Alta zenbakia bakarra izan beha du lote bakoitzeko!"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_product_pricelist
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_product_pricelist
+msgid "Sale Pricelist"
+msgstr "Salmenta prezio zerrenda"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_user_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_user_id
+msgid "Salesperson"
+msgstr "Saltzailea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_section
+msgid "Section"
+msgstr "Sekzio"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_invoice_warn
+#: model:ir.model.fields,help:openeducat_core.field_op_student_invoice_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "\"Abisua\" aukeratzean erabiltzaileak jakinarazpena jasoko du mezuarekin, \"Mezu blokeatzailea\" aukeratzean salbuespena sortuko da mezuarekin eta jarioa oztopatuko du. Mezua hurrengo eremuan idatzi behar da."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_self
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_self
+msgid "Self"
+msgstr "Auto"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_partner_share
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_partner_share
+msgid "Share Partner"
+msgstr "Banatzeko partnerra"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_res_company_signature
+msgid "Signature"
+msgstr "Sinadura"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_expiration
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_expiration
+msgid "Signup Expiration"
+msgstr "Sinadura epe muga"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_token
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_token
+msgid "Signup Token"
+msgstr "Sinadura tokena"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_type
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_type
+msgid "Signup Token Type"
+msgstr "Sinaduta token mota"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_valid
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_valid
+msgid "Signup Token is Valid"
+msgstr "Sinadura token onartua"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_signup_url
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_signup_url
+msgid "Signup URL"
+msgstr "Sinaduraren URLa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_image_small
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_image_small
+msgid "Small-sized image"
+msgstr "Tamaina txikiko irudia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_image_small
+#: model:ir.model.fields,help:openeducat_core.field_op_student_image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Kontatu hontako irudi txikia. Automatikoki 64x64px tamainara aldatu da proportzioak aldatu gabe . Erabili irudi hau edonon tamaina txikia behar duzunean."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_batch_start_date
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+msgid "Start Date"
+msgstr "Hasiera Data"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_activity_state
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_state_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_activity_state
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_state_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "State"
+msgstr "Egoera"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+msgid "Status"
+msgstr "Egoera"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_activity_state
+#: model:ir.model.fields,help:openeducat_core.field_op_student_activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Ekintzetan oinarritutako egoera pasata\n"
+"dago: Dagoeneko Epe muga pasata\n"
+"Gaur: Ekintza data gaurko data da\n"
+"Planifikatuta: Etorkizuneko ekintzak."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_street
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_street
+msgid "Street"
+msgstr "Kalea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Street..."
+msgstr "Kalea..."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_street2
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_street2
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Street2"
+msgstr "Kalea2"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_student_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_student_id
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_tree
+#: model:res.groups,name:openeducat_core.group_op_student
+msgid "Student"
+msgstr "Ikaslea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_student_course
+msgid "Student Course Details"
+msgstr "Ikaslearen ikastaro xehetasunak"
+
+#. module: openeducat_core
+#: model:ir.actions.report,name:openeducat_core.action_report_student_idcard
+msgid "Student IdCard"
+msgstr "Ikaslearen Icard"
+
+#. module: openeducat_core
+#: sql_constraint:op.student.course:0
+msgid "Student must be unique per Batch!"
+msgstr "Ikaslea bakarra izan behako du lote bakoitzeko!"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_student_view
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student_student_ids
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_main
+#: model:ir.ui.menu,name:openeducat_core.menu_op_student_root
+#: model:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "Students"
+msgstr "Ikasleak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_search
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_tree
+msgid "Subject"
+msgstr "Gaia"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_subject
+msgid "Subject Management"
+msgstr "Ikasgaien kudeaketa"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_subject_registration_view
+#: model:ir.ui.menu,name:openeducat_core.subject_registration_faculty_menu
+#: model:ir.ui.menu,name:openeducat_core.subject_registration_student_menu
+msgid "Subject Registration"
+msgstr "Ikasgaiaren alta"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_subject_type
+msgid "Subject Type"
+msgstr "Ikasgaia mota"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course_subject_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_faculty_subject_ids
+msgid "Subject(s)"
+msgstr "Ikasgaia(ak)"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_subject_view
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course_subject_ids
+#: model:ir.ui.menu,name:openeducat_core.menu_op_subject_sub
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_course_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Subjects"
+msgstr "Ikasgaiak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_subject_registration_form
+msgid "Submit"
+msgstr "Bidali"
+
+#. module: openeducat_core
+#: selection:op.subject.registration,state:0
+msgid "Submitted"
+msgstr "Bidalia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_vat
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_vat
+msgid "TIN"
+msgstr "TIN"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_category_id
+msgid "Tags"
+msgstr "Etiketak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_vat
+#: model:ir.model.fields,help:openeducat_core.field_op_student_vat
+msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
+msgstr "Zerga mota zenbakia. Enpresa, zerga legeei lotuta belego, bete eremua."
+
+#. module: openeducat_core
+#. openerp-web
+#: code:addons/openeducat_core/static/src/xml/base.xml:11
+#, python-format
+msgid "Tech Receptives"
+msgstr "Tech hartzaileak"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.aboutus_openeducat
+msgid ""
+"TechReceptives understand both Open Source and Educational\n"
+"                        needs of the society and have come up their novel approach\n"
+"                        for educational institute -- a full open source ERP solution,\n"
+"                        that provides the educational institute for managing\n"
+"                        different kinds of activities related to management and other\n"
+"                        collaborative efforts."
+msgstr ""
+"TechReceptives understand both Open Source and Educational\n"
+"                        needs of the society and have come up their novel approach\n"
+"                        for educational institute -- a full open source ERP solution,\n"
+"                        that provides the educational institute for managing\n"
+"                        different kinds of activities related to management and other\n"
+"                        collaborative efforts."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_account_position_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_account_position_id
+msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgstr "Posizio fiskalak, bazkideari dagozkion zergak eta kontuak zehazten dizkio."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_user_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_user_id
+msgid "The internal user that is in charge of communicating with this contact if any."
+msgstr "Barne erabiltzaileak kontaktu honekin komunikatzeko ardura du oso."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_has_unreconciled_entries
+#: model:ir.model.fields,help:openeducat_core.field_op_student_has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "Bazkideak gutxienez debitu eta kreditu zenbateko bat kontziliatu gabe dauka."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_tz
+#: model:ir.model.fields,help:openeducat_core.field_op_student_tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr "Ordu zona (Timezone) partner etan erabiltzen da informeetan bakoitzari dagokion ordu zona atera diezaien.Balio bat jarri beharko diogu. Baino kontutan eduki gure ordenagailuan dugun ordu zona, berdina jarri beharko bait dugu."
+
+#. module: openeducat_core
+#: selection:op.subject,type:0
+msgid "Theory"
+msgstr "Teoria"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_account_payable_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Bazkideeen ordainagirian ( Ordainketak) kontu hau erabiliko da, lehenetsiaren ordez"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_account_receivable_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Bazkideeen kobrantzarako kontu hau erabiliko da, lehenetsiaren ordez"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_image
+#: model:ir.model.fields,help:openeducat_core.field_op_student_image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Kontaktu honetako irudiaren eremuak avatar moduan erabiltzen da, bere tamaina 1024x1024Px tara mugatua dago"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "This is to certify that"
+msgstr "Hau hori egiaztatzeko da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_supplier_payment_term_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "Ordainketa mota hau, hornitzaile eskaeratan eta hornitzaile fakturatan erabiliko da lehenetsinez"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_payment_term_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_payment_term_id
+msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
+msgstr "Ordainketa mota hau, bezero eskaeratan eta salmenta fakturatan erabiliko da lehenetsinez"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_property_product_pricelist
+#: model:ir.model.fields,help:openeducat_core.field_op_student_property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Prezio zerrenda hau erabiliko da, lehenetsitakoaren ordez, egungo bazkideentzako salmentarako"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_tz
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_tz
+msgid "Timezone"
+msgstr "Ordu zona"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_tz_offset
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_tz_offset
+msgid "Timezone offset"
+msgstr "Ordu zona aldaketa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_title
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_title
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Title"
+msgstr "Titulua"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid ""
+"To the best of my knowledge, he / she bears a Good Moral\n"
+"                                            character."
+msgstr ""
+"To the best of my knowledge, he / she bears a Good Moral\n"
+"                                            character."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_total_invoiced
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_total_invoiced
+msgid "Total Invoiced"
+msgstr "Fakturazioa guztira"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_debit
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_debit
+msgid "Total Payable"
+msgstr "Ordaintzekoa guztira"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_credit
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_credit
+msgid "Total Receivable"
+msgstr "Kobratu guztira"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_credit
+#: model:ir.model.fields,help:openeducat_core.field_op_student_credit
+msgid "Total amount this customer owes you."
+msgstr "Bezero honek zor duen guztia."
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_debit
+#: model:ir.model.fields,help:openeducat_core.field_op_student_debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Hornitzaile honi zor diozun guztia."
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_type
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_subject_search
+msgid "Type"
+msgstr "Mota"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_unread
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_unread
+msgid "Unread Messages"
+msgstr "Irakurri gabeko mezuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_message_unread_counter
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Irakurri gabeko zenbatekoa"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_login
+msgid "Used to log into the system"
+msgstr "Sisteman sartzeko erabiltzen da"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_type
+#: model:ir.model.fields,help:openeducat_core.field_op_student_type
+msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgstr "Helbide zuzena aukeratzeko erabiltzen da salmenten eta erosketen textuingurunea kontutan edukiz."
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "User"
+msgstr "Erabiltzailea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_res_users_user_line
+msgid "User Line"
+msgstr "Erabiltzaile lerroa"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_res_users
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_user_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_user_ids
+msgid "Users"
+msgstr "Erabiltzaileak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_currency_id
+#: model:ir.model.fields,help:openeducat_core.field_op_student_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Erabilgarritasun eremua moneta kopurua adierazteko"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_property_supplier_payment_term_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Hornitzailea salmenta baldintzak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_visa_info
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_visa_info
+msgid "Visa Info"
+msgstr "Visa Info"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty_employee_user_boolean
+msgid "Want to create user too ?"
+msgstr "Erabiltzailea sortu nahi duzu ere?"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_website
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_website
+msgid "Website"
+msgstr "Webgune"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_website_message_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_website_message_ids
+msgid "Website Messages"
+msgstr "Webgune mesuak"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_website_message_ids
+#: model:ir.model.fields,help:openeducat_core.field_op_student_website_message_ids
+msgid "Website communication history"
+msgstr "Webgunearen komunikazioen historia"
+
+#. module: openeducat_core
+#: model:ir.model.fields,help:openeducat_core.field_op_faculty_website
+#: model:ir.model.fields,help:openeducat_core.field_op_student_website
+msgid "Website of Partner or Company"
+msgstr "Konpainia eta enpresen Webgunea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.report_student_bonafide
+msgid "Year"
+msgstr "Urtea"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "ZIP"
+msgstr "Posta kodea"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty_zip
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_zip
+msgid "Zip"
+msgstr "Posta kodea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_batch
+msgid "op.batch"
+msgstr "op.lotea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_category
+msgid "op.category"
+msgstr "op.kategoria"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_course
+msgid "op.course"
+msgstr "op.Ikastaroa"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_faculty
+msgid "op.faculty"
+msgstr "op.irakaslea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_student
+msgid "op.student"
+msgstr "op.ikaslea"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_subject
+msgid "op.subject"
+msgstr "op.ikasgaia"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_subject_registration
+msgid "op.subject.registration"
+msgstr "op.ikasgai matrikula"
+
+#. module: openeducat_core
+#: model:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+#: model:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "or"
+msgstr "edo"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration_state
+msgid "state"
+msgstr "egoera"
