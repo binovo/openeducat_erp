@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* openeducat_classroom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 15:12+0000\n"
+"PO-Revision-Date: 2019-01-31 09:04+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: eu_ES\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_asset_id
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_asset_line
+msgid "Asset"
+msgstr "Aktiboa"
+
+#. module: openeducat_classroom
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_form
+msgid "Asset Management"
+msgstr "Aktiboen kudeaketa"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_batch_id
+msgid "Batch"
+msgstr "Lotea"
+
+#. module: openeducat_classroom
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
+msgid "Capacity"
+msgstr "Ahalmena"
+
+#. module: openeducat_classroom
+#: model:ir.ui.menu,name:openeducat_classroom.menu_op_school_config_class_room
+msgid "Class Room Management"
+msgstr "Ikasgelen kudeaketa"
+
+#. module: openeducat_classroom
+#: model:ir.actions.act_window,name:openeducat_classroom.act_open_op_classroom_view
+#: model:ir.ui.menu,name:openeducat_classroom.menu_op_classroom_sub
+msgid "Class Rooms"
+msgstr "Ikasgelak"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_facility_line_classroom_id
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_form
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_tree
+msgid "Classroom"
+msgstr "Ikasgela"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_code
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_code
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
+msgid "Code"
+msgstr "Kodea"
+
+#. module: openeducat_classroom
+#: sql_constraint:op.classroom:0
+msgid "Code should be unique per classroom!"
+msgstr "Ikasgela bakoitzeko kode bakar bat izan behar du!"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_course_id
+msgid "Course"
+msgstr "Ikastaroa"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_create_uid
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_create_date
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_create_date
+msgid "Created on"
+msgstr "Noiz sortua"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_display_name
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_display_name
+msgid "Display Name"
+msgstr "Izena erakutsi"
+
+#. module: openeducat_classroom
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_form
+msgid "Facilities"
+msgstr "Instalazioak"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_facilities
+msgid "Facility Lines"
+msgstr "Instalazio lerroak"
+
+#. module: openeducat_classroom
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
+msgid "Group By..."
+msgstr "Taldekatua..."
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_id
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_id
+msgid "ID"
+msgstr "ID"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset___last_update
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom___last_update
+msgid "Last Modified on"
+msgstr "Azken aldaketa data"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_write_uid
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_write_uid
+msgid "Last Updated by"
+msgstr "Azkenengoz eguneratu zuena"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_write_date
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_write_date
+msgid "Last Updated on"
+msgstr "Azken eguneraketa data"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_name
+#: model:ir.ui.view,arch_db:openeducat_classroom.view_op_classroom_search
+msgid "Name"
+msgstr "Izena"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_classroom_capacity
+msgid "No of Person"
+msgstr "Ikasle kopurua"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_product_id
+msgid "Product"
+msgstr "Produktua"
+
+#. module: openeducat_classroom
+#: model:ir.model.fields,field_description:openeducat_classroom.field_op_asset_product_uom_qty
+msgid "Quantity"
+msgstr "Kopurua"
+
+#. module: openeducat_classroom
+#: model:ir.model,name:openeducat_classroom.model_op_asset
+msgid "op.asset"
+msgstr "op.aktiboa"
+
+#. module: openeducat_classroom
+#: model:ir.model,name:openeducat_classroom.model_op_classroom
+msgid "op.classroom"
+msgstr "op.ikasgela"
+
+#. module: openeducat_classroom
+#: model:ir.model,name:openeducat_classroom.model_op_facility_line
+msgid "op.facility.line"
+msgstr "op.instalazio.lerroa"
