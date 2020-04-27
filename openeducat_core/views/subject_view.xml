@@ -45,7 +45,8 @@
                     <newline />
                     <group expand="0" string="Group By...">
                         <filter string="Type" domain="[]"
-                            context="{'group_by':'type'}" />
+                            context="{'group_by':'type'}"
+                            name="op_subject_search_type_group"/>
                     </group>
                 </search>
             </field>
