@@ -68,7 +68,8 @@ class OpSubjectRegistration(models.Model):
                 subject_ids.append(sub.id)
             course_id = self.env['op.student.course'].search([
                 ('student_id', '=', record.student_id.id),
-                ('course_id', '=', record.course_id.id)
+                ('course_id', '=', record.course_id.id),
+                ('batch_id', '=', record.batch_id.id)
             ], limit=1)
             if course_id:
                 course_id.write({
