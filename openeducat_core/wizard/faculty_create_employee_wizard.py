@@ -30,10 +30,11 @@ class WizardOpFacultyEmployee(models.TransientModel):
 
     @api.multi
     def create_employee(self):
-        for record in self:
-            active_id = self.env.context.get('active_ids', []) or []
-            faculty = self.env['op.faculty'].browse(active_id)
+        sudo_self = self.sudo()
+        for record in sudo_self:
+            active_id = sudo_self.env.context.get('active_ids', []) or []
+            faculty = sudo_self.env['op.faculty'].browse(active_id)
             faculty.create_employee()
             if record.user_boolean and not faculty.user_id:
-                user_group = self.env.ref('openeducat_core.group_op_faculty')
-                self.env['res.users'].create_user(faculty, user_group)
+                user_group = sudo_self.env.ref('openeducat_core.group_op_faculty')
+                sudo_self.env['res.users'].create_user(faculty, user_group)
